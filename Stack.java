@@ -1,11 +1,10 @@
 /**
- * Created by Timo_Sharab on 24/01/22.
+ * Created by Timo_Sharab on 26/03/22.
  */
-public interface Stack<E> {
+public class Stack<E> {
     boolean isEmpty();
     int size();
     void push(E element);
     E pop();
     E top();
-
 }
